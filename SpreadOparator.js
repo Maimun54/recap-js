@@ -15,5 +15,7 @@ calculate(...numbers)
 
 let arrOne =[0,1,2,3,4,5]
 let arrTwo =[6,7,8,9,10]
-arrOne =arrOne.concat(arrTwo)
+
+arrOne =[...arrOne, ...arrTwo]
+// arrOne =arrOne.concat(arrTwo)
 console.log(arrOne)
